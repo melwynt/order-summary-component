@@ -1,6 +1,6 @@
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).<br>
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-order-summary-card-using-sassscss-H8PwPtElv).<br>
 Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [www.frontendmentor.io/solutions/responsive-order-summary-card-using-sassscss-H8PwPtElv](https://www.frontendmentor.io/solutions/responsive-order-summary-card-using-sassscss-H8PwPtElv)
+- Live Site URL: [order-summary-component-seven-gray.vercel.app/](https://order-summary-component-seven-gray.vercel.app/)
 
 ## My process
 
