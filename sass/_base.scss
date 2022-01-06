@@ -1,22 +1,26 @@
 :root {
-    --color-primary: #eb2f64;
-    --color-primary-light: #FF3366;
-    --color-primary-dark: #BA265D;
+    // ### Primary
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%); // btn-change
 
-    --color-grey-light-1: #faf9f9;
-    --color-grey-light-2: #f4f2f2;
-    --color-grey-light-3: #f0eeee;
-    --color-grey-light-4: #ccc;
-    
-    --color-grey-dark-1: #333;
-    --color-grey-dark-2: #777;
-    --color-grey-dark-3: #999;
+    // ### Neutral
+    --very-pale-blue: hsl(225, 100%, 98%); // bg-box
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%); // h1
 
-    --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+    --grey: hsl(206, 3%, 53%); // text
+
+    --shadow-blue: 0 2rem 6rem var(--bright-blue);
     --shadow-light: 0 2rem 5rem rgba(0,0,0,.06);
+
+    --color-btn-hover: rgba(118, 108, 241, 1);
+    --color-btn-cancel: rgb(106, 116, 141, 1);
 
     --line: 1px solid var(--color-grey-light-2);
 }
+
+// $bp-smallest: 22.9375em; // 367px
+$bp-smallest: 23.4375em; // 375px
 
 * {
     margin: 0;
@@ -32,14 +36,30 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+
+    @media only screen and (max-width: $bp-smallest) {
+        font-size: 47%;
+    }
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.4rem;
-    font-weight: 400;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
     line-height: 1.6;
-    color: var(--color-grey-dark-2);
 
-    min-height: 100vh;
+    background-color: var(--pale-blue);
+
+    background-image: url(../img/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    // background-position-y: -6rem;
+
+    color: var(--grey);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
