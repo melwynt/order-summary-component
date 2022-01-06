@@ -1,27 +1,67 @@
-## Description
+# Frontend Mentor - Order summary card solution
 
-This is a simple HTML and SASS Boilerplate with these modules:
-- autoprefixer
-- concat
-- node-sass
-- npm-run-all
-- postcss-cli
-- postcss
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).<br>
+Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-Node version in use:<br>
-`v16.13.0`
+## Table of contents
 
-[Live server](https://www.npmjs.com/package/live-server) is installed globally.<br>
-Version in use:<br>
-`live-server 1.2.1`
+- [Frontend Mentor - Order summary card solution](#frontend-mentor---order-summary-card-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
 
-Run `npm install` locally to install all required modules.
+## Overview
 
-Run `npm run start` to start the live server locally.
+### The challenge
 
-Please give this repo a ⭐ if you found it useful! Thanks
+Users should be able to:
 
-## Contact
+- See hover states for interactive elements
 
-🐦 Twitter: [@melwyntee](https://twitter.com/melwyntee)<br>
-🧑‍💻 LinkedIn: [melwynturbant](https://www.linkedin.com/in/melwynturbant)
+### Screenshot
+
+![](./screenshot.jpg)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- SASS/SCSS
+- Mobile-first workflow
+
+### What I learned
+
+This project was a good practice in terms of using:
+- flex
+- media queries
+- BEM structure
+
+### Useful resources
+
+Firefox add-ons that I used to create a pixel perfect version of this website:
+- [Pixel Perfect Pro](https://addons.mozilla.org/en-US/firefox/addon/pixel-perfect-pro/) - This helped me to display a screenshot on top of the webpage to easily check if dimensions were accurate.
+- [PX: Viewport Dimensions](https://addons.mozilla.org/en-US/firefox/addon/px-viewport-dimensions/) - This add-on will show you the dimensions of your viewport while resizing your browser.
+
+Other tools:
+- [Gimp](https://www.gimp.org/) - This helped me resize screenshots provided in the project
+- [Figma](https://www.figma.com) - This helped me create a rapid mockup to get dimensions of components.
+
+## Author
+
+- Frontend Mentor - [@melwynt](https://www.frontendmentor.io/profile/melwynt)
+- Twitter - [@melwyntee](https://www.twitter.com/yourusername)
